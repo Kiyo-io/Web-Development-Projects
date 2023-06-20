@@ -18,6 +18,8 @@
 }
 .backgroundTwo {
   background-color: rgb(0, 0, 0);
+  /* Activate for No Link */
+  /* background-image: url(./flowerpink.webp); */
 }
 .backgroundOne {
   background-color: transparent;
@@ -29,5 +31,14 @@
   width: 200px;
 }
 .backgroundThree {
-  background-image: url(./design\ music.jpeg);
+  background-color: black;
+}
+.font1 {
+  font-family: "Playfair Display SC", serif;
+  color: white;
+}
+
+.font2 {
+  font-family: "Marcellus", serif;
+  color: white;
 }
