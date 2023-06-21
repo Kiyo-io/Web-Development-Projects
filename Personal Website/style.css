@@ -13,8 +13,9 @@
   z-index: 1;
   color: pink;
   font-style: normal;
-  font-family: "Marcellus", serif;
-  font-size: 50px;
+
+  font-family: "Sacramento", cursive;
+  font-size: 100px;
 }
 .backgroundTwo {
   background-color: rgb(0, 0, 0);
