@@ -92,8 +92,17 @@ p {
 .social-media-display {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
-.social-svg > img {
+.social-svg {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-svg > img,
+svg {
   height: 35px;
 }
