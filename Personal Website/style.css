@@ -99,7 +99,8 @@ h3 {
     #5e1337
   );
 }
-.about-display > h2 {
+.about-display > h2,
+h4 {
   font-family: "Mr Bedfort", cursive;
 }
 
@@ -120,6 +121,7 @@ h3 {
   height: 300px;
 }
 .contact-display > h2 {
+  font-family: "Mr Bedfort", cursive;
   display: flex;
   justify-content: space-around;
 }
