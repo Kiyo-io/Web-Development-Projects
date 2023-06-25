@@ -7,42 +7,37 @@
     <link rel="stylesheet" href="style.css"
   </head>
   <style>
-      body {height: 100vh;
-      font-size: 20px;
-    color: lightblue;}
+              body {height: 100vh;
+              font-size: 20px;
+            color: #c2777d}
 
 
 
-      /* <!-- Your CSS styles for non-media query rules */
+              /* <!-- Your CSS styles for non-media query rules */
 
-      /* Media query for screens with a maximum width of 768px Tablet */
-      @media (max-width: 900px) {
-        Your CSS styles specific to this media query
-      }
+              /* Media query for screens with a maximum width of 768px Tablet */
+              @media (max-width: 900px) {
+                Your CSS styles specific to this media query
+              }
 
-      /* Media query for screens with a maximum width of 480px Phone */
-      @media (max-width: 480px) {
-        Your CSS styles specific to this media query
-      }
+              /* Media query for screens with a maximum width of 480px Phone */
+              @media (max-width: 480px) {
+                .heading-container > h1 {
+                  font-size: 4rem;
+
+    }  .project-display-1 img { width: 6rem;
+    margin: 5px;}
+              }
+
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap" rel="stylesheet">
   </style>
 
   <body>
     <nav class="display-navigation">
       <ul>
-        <li>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            fill="white"
-            viewBox="0 0 256 256"
-          >
-            <path
-              d="M210.78,39.25l-130.25-23A16,16,0,0,0,62,29.23l-29.75,169a16,16,0,0,0,13,18.53l130.25,23h0a16,16,0,0,0,18.54-13l29.75-169A16,16,0,0,0,210.78,39.25ZM178.26,224h0L48,201,77.75,32,208,55ZM89.34,58.42a8,8,0,0,1,9.27-6.48l83,14.65a8,8,0,0,1-1.39,15.88,8.36,8.36,0,0,1-1.4-.12l-83-14.66A8,8,0,0,1,89.34,58.42ZM83.8,89.94a8,8,0,0,1,9.27-6.49l83,14.66A8,8,0,0,1,174.67,114a7.55,7.55,0,0,1-1.41-.13l-83-14.65A8,8,0,0,1,83.8,89.94Zm-5.55,31.51A8,8,0,0,1,87.52,115L129,122.29a8,8,0,0,1-1.38,15.88,8.27,8.27,0,0,1-1.4-.12l-41.5-7.33A8,8,0,0,1,78.25,121.45Z"
-            ></path>
-          </svg>
-          Resume
-        </li>
+        <li>Resume</li>
         <li>ipsum dolor</li>
         <li>sit amet</li>
       </ul>
@@ -50,12 +45,13 @@
     <!-- Consider putting an svg or something dynamic in header -->
     <header class="display-heading">
       <div class="heading-container">
-        <h1>Tishaya Thompson</h1>
+        <h1 style="color: #5e1337">Tishaya Thompson</h1>
         <h2>Front-end Web Developer</h2>
       </div>
     </header>
     <!-- Grid based layout -->
     <div class="project-display">
+      <h2>Projects</h2>
       <div class="project-display-1">
         <div>
           <img src="./assets/design coding.webp" alt="" />
@@ -85,19 +81,16 @@
     </div>
     <!-- Consider adding resume to this section instead of nav link -->
     <div class="about-display">
-      <h2></h2>
+      <h2>About Me</h2>
       <img
         src="../kiyos-adventure/4.3 HTML Porfolio Project/assets/images/profile.jpg"
         alt=""
       />
-      <h4>Hi</h4>
-      <p>
+      <h4>Hi There!</h4>
+      <p style="color: #5e1337">
         Proin fermentum lectus sed diam dapibus commodo. Cras sed malesuada
         nibh. Donec vestibulum eros non mauris sodales, et tempus mi aliquet.
-        Aliquam congue ipsum vel tincidunt ornare. Maecenas semper dictum ipsum.
-        Vestibulum eleifend sed enim a maximus. In quis massa placerat ipsum
-        lobortis scelerisque eu ac dui. Sed in vestibulum purus, at pharetra
-        ligula. Nam porta libero quis erat consectetur malesuada.
+        Aliquam congue ipsum vel tincidunt ornare.
       </p>
     </div>
     <footer class="contact-display">
@@ -108,7 +101,7 @@
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
-            fill="#000000"
+            fill="#5e1337"
             viewBox="0 0 256 256"
           >
             <path
@@ -122,7 +115,7 @@
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
-            fill="#000000"
+            fill="#5e1337"
             viewBox="0 0 256 256"
           >
             <path
@@ -131,12 +124,14 @@
           </svg>
           <p>Pinterest</p>
         </div>
-        <div class="social-svg">
+        <div class="social-svg" style="color: #5e1337">
           <img src="./assets/Github.svg" alt="Github Logo"
         </div>
         <p>Github</p>
       </div>
     </footer>
-    <small>Copyright Tishaya Thompson 2023</small>
+    <small style="color: #5e1337"
+      >Tishaya Thompson 2023 Copyright <img src="./assets/copyright.svg" />
+    </small>
   </body>
 </html>
