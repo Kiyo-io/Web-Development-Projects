@@ -7,32 +7,40 @@
     <link rel="stylesheet" href="style.css"
   </head>
   <style>
-              body {height: 100vh;
-              font-size: 20px;
-            color: #c2777d}
+    body {
+      height: 100vh;
+      font-size: 20px;
+      color: #c2777d;
+    }
 
+    /* <!-- Your CSS styles for non-media query rules */
 
+    /* Media query for screens with a maximum width of 768px Tablet */
+    /* @media (max-width: 900px) {
+                    Your CSS styles specific to this media query
+                  } */
 
-              /* <!-- Your CSS styles for non-media query rules */
+    /* Media query for screens with a maximum width of 480px Phone */
+    @media (max-width: 480px) {
+      .heading-container > h1 {
+        font-size: 4rem;
+      }
+      .project-display-1 img {
+        width: 6rem;
+        margin: 5px;
+      }
 
-              /* Media query for screens with a maximum width of 768px Tablet */
-              @media (max-width: 900px) {
-                Your CSS styles specific to this media query
-              }
+      .project-display > h2,
+      h3 {
+        font-size: 3rem;
+      }
+      .about-display > h2,
+      .contact-display > h2 {
+        font-size: 3rem;
+      }
+    }
 
-              /* Media query for screens with a maximum width of 480px Phone */
-              @media (max-width: 480px) {
-                .heading-container > h1 {
-                  font-size: 4rem;
-
-    }  .project-display-1 img { width: 6rem;
-    margin: 5px;}
-              }
-              .about-display > h2, .contact-display>h2 {font-size: 3rem;}
-
-              <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap" rel="stylesheet">
+    @import url("https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap");
   </style>
 
   <body>
