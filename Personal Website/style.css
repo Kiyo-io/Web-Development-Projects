@@ -38,9 +38,13 @@
   flex-direction: column;
   text-align: center;
 }
+
 .heading-container > h1 {
-  font-family: "Mr Bedfort", cursive;
-  font-size: 7rem;
+  font-family: "Sweet";
+  font-size: 8rem;
+}
+.heading-container > h2 {
+  font-family: "Bacasime Antique", serif;
 }
 
 .project-display {
@@ -49,6 +53,9 @@
   background-color: #5e1337;
 }
 
+.project-display > h2 {
+  font-size: 4rem;
+}
 .project-display > h2,
 h3,
 p {
@@ -99,9 +106,9 @@ h3 {
     #5e1337
   );
 }
-.about-display > h2,
-h4 {
+.about-display > h2 {
   font-family: "Mr Bedfort", cursive;
+  font-size: 4rem;
 }
 
 .about-display > img {
@@ -121,6 +128,7 @@ h4 {
   height: 300px;
 }
 .contact-display > h2 {
+  font-size: 4rem;
   font-family: "Mr Bedfort", cursive;
   display: flex;
   justify-content: space-around;

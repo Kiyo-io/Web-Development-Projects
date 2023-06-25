@@ -21,7 +21,7 @@
                   } */
 
     /* Media query for screens with a maximum width of 480px Phone */
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
       .heading-container > h1 {
         font-size: 4rem;
       }
@@ -30,17 +30,30 @@
         margin: 5px;
       }
 
-      .project-display > h2,
-      h3 {
+      .project-display > h2 {
+        font-size: 4rem;
+      }
+
+      .project-display h3 {
+        font-size: 2rem;
+      }
+      .about-display > h2 {
         font-size: 3rem;
       }
-      .about-display > h2,
       .contact-display > h2 {
         font-size: 3rem;
       }
     }
+    @font-face {
+      font-family: "Sweet";
+      src: url("assets/better-grade-font/BetterGrade-519DV.ttf")
+        format("truetype");
+      /* Add additional src lines for other font formats if available */
+    }
 
     @import url("https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap");
+
+    @import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap");
   </style>
 
   <body>
@@ -95,7 +108,7 @@
         src="../kiyos-adventure/4.3 HTML Porfolio Project/assets/images/profile.jpg"
         alt=""
       />
-      <h4>Hi There!</h4>
+
       <p style="color: #5e1337">
         Proin fermentum lectus sed diam dapibus commodo. Cras sed malesuada
         nibh. Donec vestibulum eros non mauris sodales, et tempus mi aliquet.
